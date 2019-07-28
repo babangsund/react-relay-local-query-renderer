@@ -1,0 +1,69 @@
+{
+  "name": "react-relay-local-query-renderer",
+  "version": "0.1.0",
+  "description": "Local QueryRenderer for Relay",
+  "homepage": "https://github.com/babangsund/react-relay-local-query-renderer",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "author": "babangsund",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/babangsund/react-relay-local-query-renderer/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/babangsund/react-relay-local-query-renderer.git"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "react",
+    "relay",
+    "modern",
+    "local",
+    "query",
+    "renderer",
+    "relay-modern",
+    "queryrenderer"
+  ],
+  "scripts": {
+    "build": "NODE_ENV=production rollup -c",
+    "watch": "NODE_ENV=development rollup -c -w"
+  },
+  "dependencies": {
+    "fbjs": "v0.8.16",
+    "react": "^16.8.0",
+    "react-relay": "^4.0.0",
+    "relay-runtime": "^4.0.0",
+    "@babel/runtime": "^7.0.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.0.0",
+    "@babel/core": "^7.0.0",
+    "@babel/plugin-proposal-optional-chaining": "^7.0.0",
+    "@babel/plugin-transform-runtime": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "@babel/preset-flow": "^7.0.0",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/runtime": "^7.0.0",
+    "babel-eslint": "^10.0.0",
+    "babel-plugin-dev-expression": "^0.2.2",
+    "eslint": "^6.0.0",
+    "eslint-config-prettier": "^6.0.0",
+    "eslint-plugin-prettier": "^3.0.0",
+    "eslint-plugin-react": "^7.14.0",
+    "eslint-plugin-react-hooks": "^1.6.0",
+    "fbjs": "^v0.8.16",
+    "flow-bin": "^0.104.0",
+    "prettier": "^1.18.2",
+    "react": "^16.8.0",
+    "react-relay": "^4.0.0",
+    "relay-runtime": "^4.0.0",
+    "rollup": "^1.17.0",
+    "rollup-plugin-babel": "^4.3.3",
+    "rollup-plugin-commonjs": "^10.0.1",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-terser": "^5.1.1"
+  }
+}
