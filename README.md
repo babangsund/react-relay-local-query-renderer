@@ -1,7 +1,7 @@
 # react-relay-local-query-renderer
 
 A local QueryRenderer for Relay.  
-For querying local data without sending a request to the server.
+For querying local data without sending a request to the server ([local state management](https://babangsund.com/relay_local_state_management/)).
 
 Provides functionality (likely) found in the *next* build of [relay](https://relay.dev/):  
 https://github.com/facebook/relay/blob/master/packages/react-relay/ReactRelayLocalQueryRenderer.js.
@@ -63,6 +63,7 @@ function MyApp({ children }) {
 
 ## Credits
 
-ReactRelayLocalQueryRenderer is built and maintained by **babangsund**.
+ReactRelayLocalQueryRenderer is built and maintained by **babangsund**.  
+[@blog](https://babangsund.com/).
 [@github](https://github.com/babangsund).
 [@twitter](https://twitter.com/babangsund).
