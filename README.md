@@ -32,7 +32,7 @@ const ReactRelayLocalQueryRenderer = require("react-relay-local-query-renderer")
 ## Usage
 
 Used just like a regular [QueryRenderer](https://relay.dev/docs/en/query-renderer).  
-Notice that unlike `QueryRenderer`,  `LocalQueryRenderer` is able to return a snapshot on the initial render.
+Unlike `QueryRenderer`,  `LocalQueryRenderer` is able to return a snapshot on the initial render.
 
 ```jsx
 import LocalQueryRenderer from "react-relay-local-query-renderer";
