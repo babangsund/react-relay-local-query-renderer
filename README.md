@@ -63,7 +63,8 @@ function MyApp({ children }) {
 
 ## Credits
 
-ReactRelayLocalQueryRenderer is built and maintained by **babangsund**.  
-[@blog](https://babangsund.com/).
-[@github](https://github.com/babangsund).
-[@twitter](https://twitter.com/babangsund).
+react-relay-local-query-renderer is built and maintained by **babangsund**.  
+
+[@blog](https://babangsund.com/).  
+[@github](https://github.com/babangsund).  
+[@twitter](https://twitter.com/babangsund).  
