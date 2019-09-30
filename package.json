@@ -1,6 +1,6 @@
 {
   "name": "react-relay-local-query-renderer",
-  "version": "0.2.0",
+  "version": "1.0.0",
   "description": "Local QueryRenderer for Relay",
   "homepage": "https://github.com/babangsund/react-relay-local-query-renderer",
   "main": "dist/index.js",
